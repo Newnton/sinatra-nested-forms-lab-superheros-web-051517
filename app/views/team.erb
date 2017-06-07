@@ -1,3 +1,20 @@
-
-
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>team</title>
+  </head>
+  <body>
+    <h1><%=@team.name%></h1>
+    <h2>Team Motto: <%=@team.motto%></h2>
+    <h2>Hero Name: <%=@team.heroes[0].name%></h2>
+    <h3>Hero Power: <%=@team.heroes[0].powers%></h3>
+    <h3>Hero Biography: <%=@team.heroes[0].biography%></h3>
+    <h2>Hero Name: <%=@team.heroes[1].name%></h2>
+    <h3>Hero Power: <%=@team.heroes[1].powers%></h3>
+    <h3>Hero Biography: <%=@team.heroes[1].biography%></h3>
+    <h2>Hero Name: <%=@team.heroes[2].name%></h2>
+    <h3>Hero Power: <%=@team.heroes[2].powers%></h3>
+    <h3>Hero Biography: <%=@team.heroes[2].biography%></h3>
+  </body>
+</html>
